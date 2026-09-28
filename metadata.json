@@ -1,0 +1,8 @@
+{
+  "name": "ViralMuse — Social Media Agency",
+  "description": "Cinematic scroll-driven website for ViralMuse, premier luxury hospitality and travel social media & influencer agency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

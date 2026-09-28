@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Monologue';
+  src: url('/fonts/Monologue.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-brand: #df0567;
+  --color-brand-dark: #c4045a;
+  --color-brand-light: #f9b8d2;
+  --color-brand-pale: #fdf2f7;
+  --color-ink: #0A0A0A;
+  --color-paper: #FFFFFF;
+
+  --font-headline: "Monologue", "Bebas Neue", "Anton", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-script: "Caveat", cursive;
+}
+
+@layer base {
+  html {
+    background-color: #fdf2f7;
+    color: #0A0A0A;
+    font-family: var(--font-body);
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf2f7;
+  }
+
+  ::selection {
+    background-color: #df0567;
+    color: #FFFFFF;
+  }
+}
+
+/* h1,h2,h3,h4,h5,h6,p{
+  line-height: normal !important;
+} */
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Custom scrollbar hiding if needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

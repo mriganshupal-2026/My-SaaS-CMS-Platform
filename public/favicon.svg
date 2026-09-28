@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1a8c"/>
+      <stop offset="100%" stop-color="#df0567"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Pink Background -->
+  <rect width="512" height="512" rx="128" fill="url(#pinkGrad)"/>
+  
+  <!-- Subtle Internal Border -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.3"/>
+  
+  <!-- Iconic "V" and Spark Monogram -->
+  <g filter="url(#glow)">
+    <!-- Stylized Sharp Letter V -->
+    <path d="M120 140 L216 140 L256 280 L296 140 L392 140 L292 372 L220 372 Z" fill="#ffffff"/>
+    
+    <!-- Top Right Sparkle Star -->
+    <path d="M380 90 L392 120 L422 132 L392 144 L380 174 L368 144 L338 132 L368 120 Z" fill="#fdf2f7"/>
+  </g>
+</svg>

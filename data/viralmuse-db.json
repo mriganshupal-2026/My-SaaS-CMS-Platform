@@ -1,0 +1,1781 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "username": "admin",
+      "email": "admin@viralmuse.agency",
+      "passwordHash": "$2b$10$Rq8bp6QIuMCz4Ge2meeUP.kEmM0e7vnDHXPUzgn/evzv9fRep42WO",
+      "role": "SUPER_ADMIN",
+      "isActive": true,
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T14:27:26.294Z",
+      "lastLoginAt": "2026-09-24T14:27:26.294Z"
+    }
+  ],
+  "pages": [
+    {
+      "id": "pg_home_01",
+      "title": "ViralMuse — Luxury Social Media Agency",
+      "slug": "home",
+      "isHomepage": true,
+      "status": "PUBLISHED",
+      "sections": [
+        {
+          "id": "sec_hero",
+          "type": "hero",
+          "title": "Hero Scrollytelling Video",
+          "isEnabled": true,
+          "orderIndex": 0,
+          "data": {
+            "scriptText": "we make you",
+            "mainHeadline": "Command Attention",
+            "subscriptText": "Next-gen creators & social media agency",
+            "ctaPrimaryText": "Start Project",
+            "ctaPrimaryLink": "#inquiry",
+            "ctaSecondaryText": "Explore Work",
+            "ctaSecondaryLink": "#services",
+            "videoUrl": "https://assets.cdn.filesafe.space/xSjwuaSnNYIVMgIONcb2/media/6ab3b5d98bf21de2ae3b42b0.mp4",
+            "posterUrl": "/images/hero-fallback.jpg",
+            "ambientTitle": "VIRALMUSE"
+          }
+        },
+        {
+          "id": "sec_stats",
+          "type": "stats",
+          "title": "Kinetic Stats Counter",
+          "isEnabled": true,
+          "orderIndex": 1,
+          "data": {
+            "stat1Value": "15+",
+            "stat1Label": "In-House Experts",
+            "stat1Desc": "Cinematographers, editors, and algorithm analysts.",
+            "stat2Value": "400+",
+            "stat2Label": "Influencers",
+            "stat2Desc": "Global creator network with active luxury followers.",
+            "stat3Value": "150+",
+            "stat3Label": "Satisfied Clients",
+            "stat3Desc": "5-star resorts, boutique hotels, and luxury brands."
+          }
+        },
+        {
+          "id": "sec_services",
+          "type": "services",
+          "title": "Sticky Luxury Services",
+          "isEnabled": true,
+          "orderIndex": 2,
+          "data": {
+            "eyebrow": "Our Expertise",
+            "heading": "Our services",
+            "items": [
+              {
+                "id": "srv_1",
+                "num": "01",
+                "title": "Content Creation & Cinematic Production",
+                "desc": "High-end 4K Reels, TikToks, and YouTube Shorts produced with RED and Sony FX cameras, cinematic drone passes, and color grading tuned for luxury aesthetics.",
+                "tags": [
+                  "4K Video",
+                  "Drone Cinema",
+                  "Viral Hooks",
+                  "Sound Design"
+                ],
+                "metric": "+280%",
+                "metricLabel": "Avg. Organic Engagement"
+              },
+              {
+                "id": "srv_2",
+                "num": "02",
+                "title": "Influencer Marketing & Creator Architecture",
+                "desc": "End-to-end influencer campaigns with vetted luxury travel, lifestyle, and hospitality creators. Seamless contracts, creative briefs, and guaranteed deliverables.",
+                "tags": [
+                  "Creator Match",
+                  "Global Network",
+                  "ROI Tracking",
+                  "Contract Rights"
+                ],
+                "metric": "12M+",
+                "metricLabel": "Monthly Creator Impressions"
+              },
+              {
+                "id": "srv_3",
+                "num": "03",
+                "title": "Social Media Management & Algorithm Growth",
+                "desc": "Full-service channel management across Instagram and TikTok. Trend forecasting, community moderation, daily publishing, and algorithm-driven scheduling.",
+                "tags": [
+                  "Full Management",
+                  "Daily Posting",
+                  "Community Care",
+                  "Weekly Reports"
+                ],
+                "metric": "3.4x",
+                "metricLabel": "Follower Velocity Rate"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec_marquee",
+          "type": "word_marquee",
+          "title": "Typographic Marquee Band",
+          "isEnabled": true,
+          "orderIndex": 3,
+          "data": {
+            "line1": [
+              "Young",
+              "Pink Vibes",
+              "Minds",
+              "Bold Impact",
+              "Luxury Orbit"
+            ],
+            "line2": [
+              "Bold Vision",
+              "Viral Impact",
+              "Infinite Reach",
+              "Cinematic Precision"
+            ]
+          }
+        },
+        {
+          "id": "sec_partners",
+          "type": "partners",
+          "title": "Partners & Client Brand Grid",
+          "isEnabled": true,
+          "orderIndex": 4,
+          "data": {
+            "eyebrow": "Trusted By Visionaries",
+            "list": [
+              {
+                "id": "lumina",
+                "name": "LUMINA",
+                "logo": "/images/partners/generic-lumina.svg",
+                "alt": "Lumina Hotels & Resorts"
+              },
+              {
+                "id": "aura",
+                "name": "AURA",
+                "logo": "/images/partners/generic-aura.svg",
+                "alt": "Aura Alpine Retreats"
+              },
+              {
+                "id": "solstice",
+                "name": "SOLSTICE",
+                "logo": "/images/partners/generic-solstice.svg",
+                "alt": "Solstice Sanctuary & Spa"
+              },
+              {
+                "id": "vanguard",
+                "name": "VANGUARD",
+                "logo": "/images/partners/generic-vanguard.svg",
+                "alt": "Vanguard Hotels & Residences"
+              },
+              {
+                "id": "atelier",
+                "name": "ATELIER NOIR",
+                "logo": "/images/partners/generic-atelier.svg",
+                "alt": "Atelier Noir Paris Milano"
+              },
+              {
+                "id": "chroma",
+                "name": "CHROMA",
+                "logo": "/images/partners/generic-chroma.svg",
+                "alt": "Chroma Creative Studios"
+              },
+              {
+                "id": "valepeak",
+                "name": "VALE & PEAK",
+                "logo": "/images/partners/generic-valepeak.svg",
+                "alt": "Vale & Peak Luxury Mountain Lodges"
+              },
+              {
+                "id": "kairos",
+                "name": "KAIROS",
+                "logo": "/images/partners/generic-kairos.svg",
+                "alt": "Kairos Private Members Club"
+              },
+              {
+                "id": "mirage",
+                "name": "MIRAGE",
+                "logo": "/images/partners/generic-mirage.svg",
+                "alt": "Mirage Oasis Resort & Spa"
+              },
+              {
+                "id": "horizon",
+                "name": "HORIZON",
+                "logo": "/images/partners/generic-horizon.svg",
+                "alt": "Horizon Hotel Collection"
+              },
+              {
+                "id": "neobotanica",
+                "name": "NEO BOTANICA",
+                "logo": "/images/partners/generic-neobotanica.svg",
+                "alt": "Neo Botanica Wellness Destinations"
+              },
+              {
+                "id": "celeste",
+                "name": "CELESTE",
+                "logo": "/images/partners/generic-celeste.svg",
+                "alt": "Celeste Haute Hospitality"
+              },
+              {
+                "id": "orbit",
+                "name": "ORBIT",
+                "logo": "/images/partners/generic-orbit.svg",
+                "alt": "Orbit Creator Network"
+              },
+              {
+                "id": "silverhorn",
+                "name": "SILVERHORN",
+                "logo": "/images/partners/generic-silverhorn.svg",
+                "alt": "Silverhorn Alpine Resort & Spa"
+              },
+              {
+                "id": "prism",
+                "name": "PRISM",
+                "logo": "/images/partners/generic-prism.svg",
+                "alt": "Prism Luxury Collective"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec_testimonials",
+          "type": "testimonials",
+          "title": "Client Endorsements & Reviews",
+          "isEnabled": true,
+          "orderIndex": 5,
+          "data": {
+            "eyebrow": "Client Endorsements",
+            "heading": "Real Velocity. Real Impact.",
+            "items": [
+              {
+                "id": "test_1",
+                "company": "Lumina Grand Hotel & Spa",
+                "quote": "Partnering with ViralMuse transformed our digital footprint into our highest-converting reservation channel. Their cinematic 4K production and creator curation delivered over 12M impressions and a 34% surge in direct suite bookings within one season.",
+                "name": "Alexander Wright",
+                "role": "Chief Executive Officer",
+                "location": "Geneva, Switzerland"
+              },
+              {
+                "id": "test_2",
+                "company": "Aura Alpine Retreat",
+                "quote": "ViralMuse captured the serene essence of our mountain retreat with breathtaking drone cinematography and editorial reels. Their creative energy is infectious, and the booking momentum they generated is measurable on our bottom line.",
+                "name": "Sophia Laurent",
+                "role": "Co-Founder & General Manager",
+                "location": "Courchevel, France"
+              },
+              {
+                "id": "test_3",
+                "company": "Maison & Co. Luxury Retail",
+                "quote": "ViralMuse is by far the most agile and trend-defining agency we have ever engaged. They don’t just follow social algorithms — they set the visual benchmark for what modern luxury hospitality and boutique retail should look like.",
+                "name": "Julian Vance",
+                "role": "Global Head of Brand Marketing",
+                "location": "Milan, Italy"
+              },
+              {
+                "id": "test_4",
+                "company": "Summit Peak Ski & Wellness Resort",
+                "quote": "From high-altitude winter activations to viral snow reels that trended internationally across TikTok and Instagram, ViralMuse elevated our mountain resort onto the global stage with world-class production.",
+                "name": "Marcus Hayes",
+                "role": "Executive Resort Director",
+                "location": "Innsbruck, Austria"
+              },
+              {
+                "id": "test_5",
+                "company": "Solstice Sanctuary Nature Resort",
+                "quote": "The team’s professionalism, aesthetic sensibility, and tier-one influencer network delivered immediate prestige and high-intent engagement for our wellness destination. An indispensable creative growth partner.",
+                "name": "Elena Rossi",
+                "role": "Managing Director",
+                "location": "Lake Como, Italy"
+              },
+              {
+                "id": "test_6",
+                "company": "Vanguard Lifestyle Collection",
+                "quote": "ViralMuse turned our panoramic boutique spa and signature suites into viral sensations. Their organic strategy generated millions of targeted impressions while preserving our brand’s exclusive luxury allure.",
+                "name": "Oliver Chen",
+                "role": "Director of Brand Experience",
+                "location": "London, United Kingdom"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec_workflow",
+          "type": "workflow",
+          "title": "4-Step Strategic Blueprint",
+          "isEnabled": true,
+          "orderIndex": 6,
+          "data": {
+            "eyebrow": "Our Blueprint",
+            "steps": [
+              {
+                "n": "01",
+                "title": "Discovery & Vision Mapping",
+                "copy": "We unpack your brand DNA, aesthetic benchmarks, key audiences, and ambitious growth targets."
+              },
+              {
+                "n": "02",
+                "title": "Creative Concept & Strategy",
+                "copy": "We build an actionable content blueprint — visual direction, narrative angles, and creator synergy."
+              },
+              {
+                "n": "03",
+                "title": "Production & Seamless Rollout",
+                "copy": "Every asset is captured with editorial precision and published at optimal cultural velocity."
+              },
+              {
+                "n": "04",
+                "title": "Scaling & Continuous Optimization",
+                "copy": "We measure engagement dynamics, audience retention, and conversion metrics to compound your momentum."
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec_closing",
+          "type": "closing",
+          "title": "Kinetic Finale & Morph Statement",
+          "isEnabled": true,
+          "orderIndex": 7,
+          "data": {
+            "line1": "And",
+            "line2": "Go Iconic",
+            "line3": "Then",
+            "backgroundImage": "/images/go-iconic-hero.jpg"
+          }
+        }
+      ],
+      "seo": {
+        "title": "ViralMuse — Social Media Agency | Luxury & Hospitality Production",
+        "description": "Cinematic scroll-driven social media agency for luxury hospitality, alpine resorts, and lifestyle brands. 4K Reels, drone cinema, and high-impact influencer campaigns.",
+        "ogTitle": "ViralMuse — Social Media Agency",
+        "ogDescription": "Premier luxury hospitality and travel social media, 4K cinematic production & influencer architecture agency.",
+        "ogImage": "/og-image.jpg",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "ViralMuse — Social Media Agency",
+        "twitterDescription": "Premier luxury hospitality and travel social media, 4K cinematic production & influencer architecture agency.",
+        "twitterImage": "/og-image.jpg"
+      },
+      "publishedAt": "2026-09-24T10:44:22.416Z",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-25T07:20:26.506Z"
+    },
+    {
+      "id": "pg_1790314889912_ftgy",
+      "title": "Hero Scrollytelling Video Campaign",
+      "slug": "hero-9d65",
+      "isHomepage": false,
+      "status": "PUBLISHED",
+      "sections": [
+        {
+          "id": "sec_hero_1790314888685_y5xz",
+          "type": "hero",
+          "title": "Hero Scrollytelling Video",
+          "isEnabled": true,
+          "orderIndex": 0,
+          "data": {
+            "scriptText": "Let's Go Viral",
+            "mainHeadline": "About Us",
+            "subscriptText": "Next-gen creators & luxury social media production.",
+            "ctaPrimaryText": "Project Inquiry",
+            "ctaPrimaryLink": "#inquiry",
+            "ctaSecondaryText": "Explore Work",
+            "ctaSecondaryLink": "#services",
+            "videoUrl": "https://assets.cdn.filesafe.space/xSjwuaSnNYIVMgIONcb2/media/6ab3b47a8d8128ee4ca50aae.mp4",
+            "posterUrl": "/images/hero-fallback.jpg",
+            "ambientTitle": "ViralMuse"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Hero Scrollytelling Video Campaign | ViralMuse",
+        "description": "ViralMuse Hero Scrollytelling Video Campaign page featuring hero scrollytelling section.",
+        "ogImage": "/og-image.jpg"
+      },
+      "publishedAt": "2026-09-25T05:41:50.375Z",
+      "createdAt": "2026-09-25T05:41:29.912Z",
+      "updatedAt": "2026-09-25T07:19:48.427Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": "art_01",
+      "title": "The 4K Formula: How Luxury Resorts Turn TikTok Views Into Direct Suite Bookings",
+      "slug": "the-4k-formula-luxury-resorts-tiktok",
+      "excerpt": "Why generic drone pan videos fail to convert, and how narrative pacing and audio hooks generated 12M+ organic impressions for Alpine wellness retreats.",
+      "content": "\n        <h2>The Shift in Luxury Hospitality Marketing</h2>\n        <p>For decades, five-star resorts and alpine sanctuaries relied exclusively on glossy print brochures and static photography. In 2026, the modern affluent traveler books based on feeling. They want to experience the morning mist rising from a heated panoramic infinity pool, hear the crisp crackle of cedar fireplace embers, and witness genuine creator moments.</p>\n        \n        <h2>Hook Within 1.5 Seconds</h2>\n        <p>Short-form algorithms on Instagram Reels and TikTok reward visceral immersion. At ViralMuse, our 4K cinematic production units capture ultra-high-definition texture — the pour of rare vintage champagne, 120fps snow cascades, and architectural minimalism.</p>\n        \n        <blockquote>\"Content that looks like a commercial gets skipped. Content that feels like a dream vacation gets shared and booked.\"</blockquote>\n        \n        <h2>Direct ROI vs. Vanity Metrics</h2>\n        <p>By synchronizing influencer activations with dedicated UTM reservation links and private concierge landing pages, our clients consistently achieve average 34% bumps in direct non-OTA bookings.</p>\n      ",
+      "featuredImage": "/images/go-iconic-hero.jpg",
+      "author": "ViralMuse Editorial Team",
+      "category": "Hospitality Strategy",
+      "tags": [
+        "Luxury Travel",
+        "TikTok Strategy",
+        "ROI Conversion",
+        "Cinematography"
+      ],
+      "status": "PUBLISHED",
+      "readingTime": "4 min read",
+      "seo": {
+        "title": "The 4K Formula: Luxury Resorts & TikTok Conversion | ViralMuse",
+        "description": "How narrative pacing and short-form video hooks generate millions of impressions and high-intent bookings for luxury hotels.",
+        "ogImage": "/images/go-iconic-hero.jpg"
+      },
+      "publishedAt": "2026-09-24T10:44:22.416Z",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T10:44:22.416Z"
+    },
+    {
+      "id": "art_02",
+      "title": "Why Influencer Matchmaking Matters More Than Follower Count",
+      "slug": "influencer-matchmaking-luxury-hospitality",
+      "excerpt": "Micro-creators with curated aesthetics and loyal ultra-high-net-worth audiences consistently outperform generic celebrity accounts.",
+      "content": "\n        <h2>Quality of Audience Over Scale</h2>\n        <p>A creator with 80,000 discerning architecture and travel connoisseurs will drive significantly more qualified inquiries than a mainstream account with 2 million passive followers.</p>\n        \n        <p>Our proprietary Creator Architecture protocol vets authentic engagement ratios, audience geographic affluence, and aesthetic compatibility before a single camera is turned on.</p>\n      ",
+      "featuredImage": "/images/hero-fallback.jpg",
+      "author": "Sophie Laurent",
+      "category": "Creator Architecture",
+      "tags": [
+        "Influencer Marketing",
+        "Creator Economy",
+        "Audience Vetting"
+      ],
+      "status": "PUBLISHED",
+      "readingTime": "3 min read",
+      "seo": {
+        "title": "Influencer Matchmaking for Luxury Brands | ViralMuse",
+        "description": "Discover why curated creator alignment drives authentic prestige and conversion in luxury social media marketing.",
+        "ogImage": "/images/hero-fallback.jpg"
+      },
+      "publishedAt": "2026-09-24T10:44:22.416Z",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T10:44:22.416Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "med_01",
+      "filename": "go-iconic-hero.jpg",
+      "originalName": "go-iconic-hero.jpg",
+      "url": "/images/go-iconic-hero.jpg",
+      "mimeType": "image/jpeg",
+      "size": 420000,
+      "width": 1920,
+      "height": 1080,
+      "altText": "Luxury architectural alpine villa with infinity pool at dusk",
+      "caption": "Closing statement background hero",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T10:44:22.416Z"
+    },
+    {
+      "id": "med_02",
+      "filename": "hero-fallback.jpg",
+      "originalName": "hero-fallback.jpg",
+      "url": "/images/hero-fallback.jpg",
+      "mimeType": "image/jpeg",
+      "size": 380000,
+      "width": 1920,
+      "height": 1080,
+      "altText": "Mountain resort dusk view with cinematic glow",
+      "caption": "Hero scrollytelling background poster",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T10:44:22.416Z"
+    },
+    {
+      "id": "med_03",
+      "filename": "og-image.jpg",
+      "originalName": "og-image.jpg",
+      "url": "/og-image.jpg",
+      "mimeType": "image/jpeg",
+      "size": 512000,
+      "width": 1200,
+      "height": 630,
+      "altText": "ViralMuse Social Share Card",
+      "caption": "OpenGraph 1200x630 banner",
+      "createdAt": "2026-09-24T10:44:22.416Z",
+      "updatedAt": "2026-09-24T10:44:22.416Z"
+    }
+  ],
+  "navigation": [
+    {
+      "id": "nav_1",
+      "label": "Services",
+      "url": "#services",
+      "orderIndex": 0,
+      "isActive": true
+    },
+    {
+      "id": "nav_2",
+      "label": "Partners",
+      "url": "#partners",
+      "orderIndex": 1,
+      "isActive": true
+    },
+    {
+      "id": "nav_3",
+      "label": "Reviews",
+      "url": "#testimonials",
+      "orderIndex": 2,
+      "isActive": true
+    },
+    {
+      "id": "nav_4",
+      "label": "Blueprint",
+      "url": "#blueprint",
+      "orderIndex": 3,
+      "isActive": true
+    },
+    {
+      "id": "nav_5",
+      "label": "Editorial",
+      "url": "/blog",
+      "orderIndex": 4,
+      "isActive": true
+    },
+    {
+      "id": "nav_6",
+      "label": "Start Project",
+      "url": "#inquiry",
+      "orderIndex": 5,
+      "isActive": true
+    },
+    {
+      "id": "nav_pg_pg_1790314889912_ftgy",
+      "label": "Hero Scrollytelling Video Campaign",
+      "url": "/p/hero-9d65",
+      "orderIndex": 6,
+      "isActive": true,
+      "target": "_self"
+    }
+  ],
+  "settings": {
+    "siteUrl": "https://viral-agency-cinematic-social-influencer-agency.ai.studio",
+    "general": {
+      "siteUrl": "https://viral-agency-cinematic-social-influencer-agency.ai.studio",
+      "siteName": "ViralMuse",
+      "siteDescription": "Premier luxury hospitality and travel social media, 4K cinematic production & influencer architecture agency.",
+      "logoUrl": "/favicon.svg",
+      "faviconUrl": "/favicon.svg",
+      "contactEmail": "hello@viralmuse.agency",
+      "phone": "+39 02 9475 2830",
+      "address": "Via Montenapoleone 8, 20121 Milano, Italy"
+    },
+    "social": {
+      "instagram": "https://instagram.com/viralmuse",
+      "tiktok": "https://tiktok.com/@viralmuse",
+      "linkedin": "https://linkedin.com/company/viralmuse",
+      "youtube": "https://youtube.com/@viralmuse",
+      "twitter": "https://x.com/viralmuse"
+    },
+    "footer": {
+      "headline": "Let's Shape Culture",
+      "email": "hello@yourcompany.com",
+      "links": [
+        {
+          "label": "Imprint",
+          "href": "#"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "label": "Cookie Settings",
+          "href": "#"
+        }
+      ],
+      "credits": "Proudly Designed & Engineered on Google AI Studio",
+      "logoTitle": "ViralMuse",
+      "logoSubtitle": "social media agency",
+      "showNavigation": true,
+      "navigationTitle": "Global Navigation & Pages",
+      "social": {
+        "instagram": "https://instagram.com/",
+        "tiktok": "https://tiktok.com/",
+        "whatsapp": "https://wa.me/",
+        "linkedin": "https://linkedin.com/",
+        "youtube": "https://youtube.com/",
+        "twitter": "https://x.com/"
+      },
+      "backgroundColor": "#df0567",
+      "showLanguageSwitcher": true
+    },
+    "seoDefaults": {
+      "title": "ViralMuse — Social Media Agency",
+      "description": "Premier luxury hospitality and travel social media, 4K cinematic production & influencer architecture agency.",
+      "ogImage": "/og-image.jpg",
+      "twitterCard": "summary_large_image"
+    },
+    "socialLinks": {
+      "instagram": "https://instagram.com/",
+      "tiktok": "https://tiktok.com/",
+      "linkedin": "https://linkedin.com/",
+      "youtube": "https://youtube.com/",
+      "twitter": "https://x.com/"
+    },
+    "inquiryForm": {
+      "badge": "Let's Connect",
+      "headline": "Start a Project",
+      "description": "Tell us about your property, upcoming season, or campaign ideas.",
+      "backgroundColor": "#df0567",
+      "fieldBackgroundColor": "rgba(255, 255, 255, 0.1)",
+      "fieldBorderColor": "rgba(255, 255, 255, 0.3)",
+      "fieldFocusBorderColor": "#ffffff",
+      "fieldBorderWidth": "1px",
+      "fieldBorderStyle": "solid",
+      "fieldTextColor": "#ffffff",
+      "fieldPlaceholderColor": "rgba(255, 255, 255, 0.45)",
+      "fieldLabelColor": "rgba(255, 255, 255, 0.9)",
+      "fieldBorderRadius": "rounded-lg",
+      "dividerBorderColor": "rgba(255, 255, 255, 0.2)",
+      "buttonBackgroundColor": "#ffffff",
+      "buttonTextColor": "#df0567",
+      "checkboxBorderColor": "rgba(255, 255, 255, 0.4)",
+      "checkboxActiveBorderColor": "#df0567",
+      "checkboxActiveBgColor": "#df0567",
+      "checkboxCheckColor": "#ffffff",
+      "checkboxBorderRadius": "rounded-md",
+      "serviceCardBackgroundColor": "rgba(255, 255, 255, 0.06)",
+      "serviceCardBorderColor": "rgba(255, 255, 255, 0.25)",
+      "serviceCardActiveBackgroundColor": "#ffffff",
+      "serviceCardActiveBorderColor": "#ffffff",
+      "serviceCardActiveTextColor": "#df0567",
+      "budgetPillBgColor": "rgba(255, 255, 255, 0.1)",
+      "budgetPillBorderColor": "rgba(255, 255, 255, 0.25)",
+      "budgetPillTextColor": "#ffffff",
+      "budgetPillActiveBgColor": "#ffffff",
+      "budgetPillActiveBorderColor": "#ffffff",
+      "budgetPillActiveTextColor": "#df0567",
+      "servicesTitle": "What can we do for you?",
+      "showServices": true,
+      "services": [
+        "Cinematic Production (4K Reels & Aerial Cinematography)",
+        "Influencer Architecture & Creator Activations",
+        "Full-Service Social Media & Growth Strategy",
+        "Hospitality & Luxury Lifestyle Campaign"
+      ],
+      "nameLabel": "Your Name *",
+      "namePlaceholder": "Elena Rossi",
+      "companyLabel": "Company / Hotel *",
+      "companyPlaceholder": "Grand Alpine Resort",
+      "showCompany": true,
+      "emailLabel": "Email Address *",
+      "emailPlaceholder": "elena@grandresort.com",
+      "phoneLabel": "Phone / WhatsApp (Optional)",
+      "phonePlaceholder": "+39 02 9475 2830",
+      "showPhone": true,
+      "budgetLabel": "Estimated Budget Range (Optional)",
+      "showBudget": true,
+      "budgetOptions": [
+        "< $10,000",
+        "$10,000 - $25,000",
+        "$25,000 - $50,000",
+        "$50,000 - $100,000",
+        "$100,000+"
+      ],
+      "messageLabel": "Additional Information",
+      "messagePlaceholder": "Tell us about your property, upcoming season, target channels, or campaign ideas...",
+      "submitButtonText": "Send Project Request",
+      "submittingText": "Sending Inquiry...",
+      "successTitle": "That Worked!",
+      "successMessage": "Thank you for reaching out. We have received your inquiry and our creative team will be in touch within 24 hours.",
+      "successButtonText": "Done",
+      "responsePromiseText": "Direct priority response within 24h",
+      "contactEmail": "hello@viralmuse.agency",
+      "successBadge": "Sent"
+    }
+  },
+  "inquiries": [],
+  "redirects": [],
+  "activityLogs": [
+    {
+      "id": "act_1790328508096_pqcs",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:28:28.096Z"
+    },
+    {
+      "id": "act_1790328501209_ybo1",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:28:21.209Z"
+    },
+    {
+      "id": "act_1790328496798_xn1d",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:28:16.798Z"
+    },
+    {
+      "id": "act_1790328485960_0etu",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:28:05.960Z"
+    },
+    {
+      "id": "act_1790328480057_vkfp",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:28:00.057Z"
+    },
+    {
+      "id": "act_1790328474259_u998",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:54.259Z"
+    },
+    {
+      "id": "act_1790328471196_nzmb",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:27:51.196Z"
+    },
+    {
+      "id": "act_1790328455898_pkq1",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:35.898Z"
+    },
+    {
+      "id": "act_1790328450042_tsad",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:30.042Z"
+    },
+    {
+      "id": "act_1790328440965_plim",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:20.965Z"
+    },
+    {
+      "id": "act_1790328437102_c8e4",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:27:17.102Z"
+    },
+    {
+      "id": "act_1790328426271_64qt",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:06.271Z"
+    },
+    {
+      "id": "act_1790328420057_42vv",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:27:00.057Z"
+    },
+    {
+      "id": "act_1790328399022_40wn",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:26:39.022Z"
+    },
+    {
+      "id": "act_1790328396163_vrhs",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:26:36.163Z"
+    },
+    {
+      "id": "act_1790328394025_pk1a",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:26:34.025Z"
+    },
+    {
+      "id": "act_1790328390040_6axi",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:26:30.040Z"
+    },
+    {
+      "id": "act_1790328365851_6kt4",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:26:05.851Z"
+    },
+    {
+      "id": "act_1790328360041_26v1",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:26:00.041Z"
+    },
+    {
+      "id": "act_1790328338779_2ub6",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:25:38.779Z"
+    },
+    {
+      "id": "act_1790328335874_kllt",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:25:35.874Z"
+    },
+    {
+      "id": "act_1790328333472_kl48",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:25:33.472Z"
+    },
+    {
+      "id": "act_1790328330044_gjmz",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:25:30.044Z"
+    },
+    {
+      "id": "act_1790328303728_py6a",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:25:03.728Z"
+    },
+    {
+      "id": "act_1790328300096_9oc8",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:25:00.096Z"
+    },
+    {
+      "id": "act_1790328278162_ex8k",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:24:38.162Z"
+    },
+    {
+      "id": "act_1790328277675_k63v",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:24:37.675Z"
+    },
+    {
+      "id": "act_1790328209728_xpjv",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:23:29.728Z"
+    },
+    {
+      "id": "act_1790328187116_vnlz",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:23:07.116Z"
+    },
+    {
+      "id": "act_1790328179672_6cvc",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:22:59.672Z"
+    },
+    {
+      "id": "act_1790328157221_ik20",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:22:37.221Z"
+    },
+    {
+      "id": "act_1790328149677_6goa",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:22:29.677Z"
+    },
+    {
+      "id": "act_1790328127315_k0tw",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:22:07.315Z"
+    },
+    {
+      "id": "act_1790328119662_rsr9",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:59.662Z"
+    },
+    {
+      "id": "act_1790328099537_m0dd",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:39.537Z"
+    },
+    {
+      "id": "act_1790328097220_pm10",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:37.220Z"
+    },
+    {
+      "id": "act_1790328090910_u9ns",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:30.910Z"
+    },
+    {
+      "id": "act_1790328071027_ardt",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:11.027Z"
+    },
+    {
+      "id": "act_1790328067319_jtby",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:07.319Z"
+    },
+    {
+      "id": "act_1790328061628_omu7",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:21:01.628Z"
+    },
+    {
+      "id": "act_1790328037121_cdbe",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:20:37.121Z"
+    },
+    {
+      "id": "act_1790328032915_45lb",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:20:32.915Z"
+    },
+    {
+      "id": "act_1790328023814_fn24",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:20:23.814Z"
+    },
+    {
+      "id": "act_1790328007125_b58r",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:20:07.125Z"
+    },
+    {
+      "id": "act_1790327993802_ovgc",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:19:53.802Z"
+    },
+    {
+      "id": "act_1790327977220_xu9f",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:19:37.220Z"
+    },
+    {
+      "id": "act_1790327963798_uoyp",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:19:23.798Z"
+    },
+    {
+      "id": "act_1790327947420_eg85",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:19:07.420Z"
+    },
+    {
+      "id": "act_1790327933805_woeh",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:18:53.805Z"
+    },
+    {
+      "id": "act_1790327917419_suvz",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:18:37.419Z"
+    },
+    {
+      "id": "act_1790327903800_6snt",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:18:23.800Z"
+    },
+    {
+      "id": "act_1790327887218_rfv5",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:18:07.218Z"
+    },
+    {
+      "id": "act_1790327873797_if0s",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:17:53.797Z"
+    },
+    {
+      "id": "act_1790327857316_ipsv",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:17:37.316Z"
+    },
+    {
+      "id": "act_1790327843811_jzi6",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:17:23.811Z"
+    },
+    {
+      "id": "act_1790327827317_ka6i",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:17:07.317Z"
+    },
+    {
+      "id": "act_1790327813798_2l0r",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:53.798Z"
+    },
+    {
+      "id": "act_1790327797020_9fgb",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:37.020Z"
+    },
+    {
+      "id": "act_1790327786943_cwpf",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:26.943Z"
+    },
+    {
+      "id": "act_1790327783796_pmkr",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:23.796Z"
+    },
+    {
+      "id": "act_1790327783603_nxi1",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "UPDATE_SETTINGS",
+      "entityType": "settings",
+      "details": "Updated global site settings",
+      "createdAt": "2026-09-25T09:16:23.603Z"
+    },
+    {
+      "id": "act_1790327774175_6bx6",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:14.175Z"
+    },
+    {
+      "id": "act_1790327767121_iiyl",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:16:07.121Z"
+    },
+    {
+      "id": "act_1790327753793_y4br",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:15:53.793Z"
+    },
+    {
+      "id": "act_1790327737316_22vh",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:15:37.316Z"
+    },
+    {
+      "id": "act_1790327723792_s72w",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:15:23.792Z"
+    },
+    {
+      "id": "act_1790327707617_lxvy",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:15:07.617Z"
+    },
+    {
+      "id": "act_1790327693881_wys0",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:14:53.881Z"
+    },
+    {
+      "id": "act_1790327603789_bm3j",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:13:23.789Z"
+    },
+    {
+      "id": "act_1790327585189_6b9h",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:13:05.189Z"
+    },
+    {
+      "id": "act_1790327573788_kw6q",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:12:53.788Z"
+    },
+    {
+      "id": "act_1790327555210_ogpy",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:12:35.210Z"
+    },
+    {
+      "id": "act_1790327543794_figd",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:12:23.794Z"
+    },
+    {
+      "id": "act_1790327525388_cwqn",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:12:05.388Z"
+    },
+    {
+      "id": "act_1790327513792_ja6g",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:11:53.792Z"
+    },
+    {
+      "id": "act_1790327495192_suvy",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:11:35.192Z"
+    },
+    {
+      "id": "act_1790327483792_8a6t",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:11:23.792Z"
+    },
+    {
+      "id": "act_1790327465190_u6ma",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:11:05.190Z"
+    },
+    {
+      "id": "act_1790327453793_7t8v",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:53.793Z"
+    },
+    {
+      "id": "act_1790327435392_2vhz",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:35.392Z"
+    },
+    {
+      "id": "act_1790327433936_b2qb",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:33.937Z"
+    },
+    {
+      "id": "act_1790327425040_n6zo",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:25.040Z"
+    },
+    {
+      "id": "act_1790327411317_tjbm",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:11.317Z"
+    },
+    {
+      "id": "act_1790327405287_tx2u",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:10:05.287Z"
+    },
+    {
+      "id": "act_1790327396357_8dnw",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:09:56.357Z"
+    },
+    {
+      "id": "act_1790327375287_davm",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:09:35.287Z"
+    },
+    {
+      "id": "act_1790327366358_oa86",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:09:26.358Z"
+    },
+    {
+      "id": "act_1790327345288_atdj",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:09:05.288Z"
+    },
+    {
+      "id": "act_1790327336357_9ub3",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:08:56.357Z"
+    },
+    {
+      "id": "act_1790327315386_y114",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:08:35.386Z"
+    },
+    {
+      "id": "act_1790327306354_v6ow",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:08:26.354Z"
+    },
+    {
+      "id": "act_1790327285187_i1jk",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:08:05.187Z"
+    },
+    {
+      "id": "act_1790327276358_9sj2",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:07:56.358Z"
+    },
+    {
+      "id": "act_1790327255192_qhrh",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:07:35.192Z"
+    },
+    {
+      "id": "act_1790327246360_77o1",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:07:26.360Z"
+    },
+    {
+      "id": "act_1790327225293_erd6",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:07:05.293Z"
+    },
+    {
+      "id": "act_1790327216367_1cgp",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:06:56.367Z"
+    },
+    {
+      "id": "act_1790327195196_a1r2",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:06:35.196Z"
+    },
+    {
+      "id": "act_1790327186350_z8jj",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:06:26.350Z"
+    },
+    {
+      "id": "act_1790327165090_jntf",
+      "userId": "usr_admin_01",
+      "username": "admin",
+      "userName": "admin",
+      "action": "LOGIN",
+      "entityType": "auth",
+      "entityId": "usr_admin_01",
+      "details": "User signed into CMS dashboard",
+      "createdAt": "2026-09-25T09:06:05.090Z"
+    }
+  ]
+}
